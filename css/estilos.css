@@ -1,0 +1,155 @@
+/* Estilo para el contenido del body */
+body {
+    width: 100%;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 239, 205);
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    color: black;
+}
+
+/* Agrega color y estilo al header */
+header{
+    background: rgb(207, 200, 164);
+    background-position: center;
+    max-height: 750px;
+    border-radius: 20px;
+}
+
+/* Agrega color y estilo al footer */
+footer {
+    background: rgb(207, 200, 164);
+    background-position: center;
+    max-height: 750px;
+    border-radius: 20px;
+}
+
+/* Agrega estilo a la foto */
+#container-image img {
+    border: 10px;
+    box-shadow: 6px 6px 20px gray;
+    max-width: 100%;
+    vertical-align: top;
+    width: 200px;
+    margin: auto;
+}
+
+/* Agrega estilos a las cajas div para que se vean como botones */
+.button {
+    border: 3px solid gray;
+    border-radius: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+}
+
+/* Agrega estilos a la caja div de descarga para que se vea como botón */
+.button-1 {
+    border: 3px solid gray;
+    border-radius: 22px;
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    float: right;
+    margin-bottom: 50px;
+}
+
+/* Agrega estilo a los h1 */
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: gray;
+    margin-left: 20px;
+}
+
+/* Agrega estilo a los h3 */
+h3 {
+    font-weight: bold;
+    color: olive;
+}
+
+/* Agrega estilo al texto "Hoja de Vida" en footer */
+#footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: gray;
+    text-shadow: 2px 4px 6px gray;
+    margin-left: 20px;
+}
+
+/* Agrega estilo a los títulos principales que están antes de la primera línea horizontal */
+#main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: gray;
+    text-shadow: 2px 4px 6px gray;
+    margin-left: 20px;
+}
+
+/* Estilo de el nombre */
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: olive;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+/* Agrega estilo a los links */
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Cambia el color de la letra al pasar por encima el cursor */
+a:hover {
+    color: blue;
+}
+
+/* Cambia el tipo de cursor y el color de fondo al pasar por encima el cursor */
+.button:hover {
+    background-color: beige;
+    cursor: pointer;
+    color: blue;
+}
+
+/* Anñadir estilo a los botones cuando da click*/
+.button:active { 
+    padding: 3px; 
+    background: rgb(208, 202, 188); 
+    color: white; 
+} 
+
+/* Cambia el tipo de cursor y el color de fondo al pasar por encima el cursor en el botón de descargar*/
+.button-1:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
+/* Cambia el estilo de los titulos con este id */
+#tittle {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: olive;
+}
+
+/* Ubica las cajas div al lado de otras */
+div {
+    display: inline-block;
+}
+
+/* Agrega estilo a las líneas horizontales */
+hr {
+    border-width: 1px;
+    border-color: darkslategray;
+}
